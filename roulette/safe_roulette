@@ -14,7 +14,7 @@ def fire_gun():
         os.system('shutdown -s')
         time.sleep(10)
     else:
-        print("Lucky you. Your files live to see another day.")
+        print("Lucky you. Your time will be saved!.")
 
 test_your_luck = input("How about we test your luck? [Y/N]")
 
