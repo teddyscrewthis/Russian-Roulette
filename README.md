@@ -6,5 +6,5 @@ PLAY AT YOUR OWN RISK
 
 This project is based off the deadly game "russian roulette", except, it has a twist. If you lose this game of roulette, you will face a outcome worse than death. Simply, system 32 will be deleted.
 
-[DEADLY ROULETTE] this version of the game is the deadly one, if you lose, system 32 will be deleted. 
-[SAFE ROULETTE] this is the safer version, if you lose, the only thing that'll happen is that your computer will be shut down. 
+[DEADLY ROULETTE] This version of the game is the deadly one, if you lose, system 32 will be deleted. 
+[SAFE ROULETTE] This is the safer version, if you lose, the only thing that'll happen is that your computer will be shut down. 
