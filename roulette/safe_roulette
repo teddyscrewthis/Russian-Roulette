@@ -1,0 +1,53 @@
+import random, time, os
+from termcolor import colored
+
+
+bullet = 3
+
+def chamber_rotate():
+    chamber_position = random.randint(1, 6)
+    return chamber_position
+
+def fire_gun():
+    if bullet == chamber_rotate():
+        print(colored("You have died! Time for your punishment!"))
+        os.system('shutdown -s')
+        time.sleep(10)
+    else:
+        print("Lucky you. Your files live to see another day.")
+
+fire_gun()
+import random, sys, time, os
+from termcolor import colored
+
+bullet = 3
+
+def chamber_rotate():
+    chamber_position = random.randint(1, 6)
+    return chamber_position
+
+def fire_gun():
+    if bullet == chamber_rotate():
+        print(colored("You lost! Time for your punishment!"))
+        os.system('shutdown -s')
+        sys.exit()
+    else:
+        print("Lucky you. You don't have to face a punishment.")
+
+test_your_luck = input("How about we test your luck? [Y/N]")
+
+if test_your_luck == "Y":
+    fire_gun()
+elif test_your_luck == "N":
+    print("Reasonable choice.")
+    time.sleep(1)
+    sys.exit()
+
+while True:
+    play_again = input("Do you want to test your luck again? [Y/N]")
+
+    if play_again == "Y":
+        fire_gun()
+    elif play_again == "N":
+        print("You've came to your sense.")
+        sys.exit()
