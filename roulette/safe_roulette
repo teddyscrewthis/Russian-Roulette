@@ -16,24 +16,6 @@ def fire_gun():
     else:
         print("Lucky you. Your files live to see another day.")
 
-fire_gun()
-import random, sys, time, os
-from termcolor import colored
-
-bullet = 3
-
-def chamber_rotate():
-    chamber_position = random.randint(1, 6)
-    return chamber_position
-
-def fire_gun():
-    if bullet == chamber_rotate():
-        print(colored("You lost! Time for your punishment!"))
-        os.system('shutdown -s')
-        sys.exit()
-    else:
-        print("Lucky you. You don't have to face a punishment.")
-
 test_your_luck = input("How about we test your luck? [Y/N]")
 
 if test_your_luck == "Y":
@@ -49,5 +31,5 @@ while True:
     if play_again == "Y":
         fire_gun()
     elif play_again == "N":
-        print("You've came to your sense.")
+        print("You've came to your senses.")
         sys.exit()
