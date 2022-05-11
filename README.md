@@ -8,4 +8,6 @@ This project is based off the deadly game "russian roulette", except, it has a t
 
 [DEADLY ROULETTE] This version of the game is the deadly one, if you lose, system 32 will be deleted.
 
-[SAFE ROULETTE] This is the safer version, if you lose, the only thing that'll happen is that your computer will be shut down. 
+[SAFE ROULETTE] This is the safer version, if you lose, the only thing that'll happen is that your computer will be shut down.
+
+[comment 5/11/22] This code is terrible and messy (it took me like 5 min to make) I'll make a more updated version. 
